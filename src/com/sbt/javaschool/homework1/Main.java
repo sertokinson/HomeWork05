@@ -16,8 +16,5 @@ public class Main {
         terminal.getAccount();
         terminal.setMoney(10000);
         terminal.getAccount();
-        /*SimpleDateFormat formating = new SimpleDateFormat("ss");
-        Calendar dating = Calendar.getInstance();
-        System.out.println( formating.format(dating.getTime()) );*/
     }
 }
