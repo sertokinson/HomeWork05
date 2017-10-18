@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class TerminalImpl implements Terminal {
     private final TerminalServer server;
+    private int countAttempt = 1;
 
     public TerminalImpl() {
-        int countAttempt = 1;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите пин:");
         int newPin = scanner.nextInt();
@@ -58,6 +58,9 @@ public class TerminalImpl implements Terminal {
         } catch (Exception e) {
             System.err.println("Error: Можно положить сумму только кратную 100");
         }
+
+    }
+    private void validator(){
 
     }
 
