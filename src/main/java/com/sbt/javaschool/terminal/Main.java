@@ -1,4 +1,7 @@
-package com.sbt.javaschool.homework1;
+package com.sbt.javaschool.terminal;
+
+import com.sbt.javaschool.terminal.api.Terminal;
+import com.sbt.javaschool.terminal.impl.TerminalImpl;
 
 public class Main {
 

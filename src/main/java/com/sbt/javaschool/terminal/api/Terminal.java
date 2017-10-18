@@ -1,4 +1,4 @@
-package com.sbt.javaschool.homework1;
+package com.sbt.javaschool.terminal.api;
 
 public interface Terminal {
      void getAccount();

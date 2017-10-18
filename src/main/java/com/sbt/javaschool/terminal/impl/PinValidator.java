@@ -1,8 +1,8 @@
-package com.sbt.javaschool.homework1;
+package com.sbt.javaschool.terminal.impl;
 
 import javax.security.auth.login.AccountLockedException;
 
-public class PinValidator extends TerminalServer{
+public class PinValidator extends TerminalServer {
     public PinValidator(int pin,int count) throws AccountLockedException {
         try {
             serverPinValidator(pin);

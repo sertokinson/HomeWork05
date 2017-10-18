@@ -1,7 +1,9 @@
-package com.sbt.javaschool.homework1;
+package com.sbt.javaschool.terminal.impl;
+
+import com.sbt.javaschool.terminal.api.Terminal;
 
 import javax.security.auth.login.AccountLockedException;
-import java.io.*;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TerminalImpl implements Terminal {
@@ -37,7 +39,7 @@ public class TerminalImpl implements Terminal {
     }
 
 
-    @Override
+
     public void getAccount() {
         try {
             server.getAccount();
@@ -46,7 +48,7 @@ public class TerminalImpl implements Terminal {
 
     }
 
-    @Override
+
     public void getMoney(double money) {
         try {
             server.getMoneyExc(money);
@@ -59,7 +61,6 @@ public class TerminalImpl implements Terminal {
 
     }
 
-    @Override
     public void setMoney(double money) {
         try {
             server.setMoneyExc(money);

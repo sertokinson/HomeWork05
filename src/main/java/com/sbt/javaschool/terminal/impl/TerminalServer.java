@@ -1,4 +1,4 @@
-package com.sbt.javaschool.homework1;
+package com.sbt.javaschool.terminal.impl;
 
 import java.io.IOException;
 
