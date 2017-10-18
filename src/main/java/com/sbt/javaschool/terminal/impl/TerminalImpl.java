@@ -54,14 +54,13 @@ public class TerminalImpl implements Terminal {
             server.getMoneyExc(money);
         } catch (IOException e){
             System.err.println("Error: Можно снять сумму только кратную 100");
-        } catch (NullPointerException e){
         } catch (Exception e) {
             System.err.println("Error: Недостаточно средств");
         }
 
     }
 
-    public void setMoney(double money) {
+    public void putMoney(double money) {
         try {
             server.setMoneyExc(money);
         } catch (NullPointerException e){

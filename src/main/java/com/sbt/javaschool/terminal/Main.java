@@ -11,7 +11,7 @@ public class Main {
         terminal.getAccount();
         terminal.getMoney(10);
         terminal.getAccount();
-        terminal.setMoney(10000);
+        terminal.putMoney(10000);
         terminal.getAccount();
     }
 }
